@@ -1,0 +1,36 @@
+<svg width="1240" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <style type="text/css">
+.boat{
+	transform: translate(-20px, -20px);
+	transform :rotate(0deg);
+	transform-origin: 50% 50%;
+}
+@keyframes wave{
+	0%{
+		transform :rotate(0deg);
+	}
+	25%{
+		transform : rotate(1deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	75%{
+		transform: rotate(-1deg);
+	}
+}
+.boat{
+	animation: wave 3s infinite linear;
+}
+ </style>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" stroke-opacity="0" id="svg_2" height="251" width="1241.00004" y="349" x="-0.00005" stroke-width="0" fill="#85b5e5"/>
+  <rect stroke="#000000" id="svg_6" height="358" width="1242.99993" y="-5" x="-1.99993" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#d0e0ef"/>
+  <g id="svg_7" class="boat">
+   <path fill="#7f3f00" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" d="m366.00001,328.792c0,0 313.99999,-0.792 313.99999,-0.792c0,0 -72.04794,33 -72.04794,33c0,0 -220.4452,-0.792 -220.4452,-0.792" id="svg_4" stroke="#000000"/>
+   <line id="svg_11" y2="328" x2="488" y1="143" x1="488" stroke-width="3" stroke="#0f0101" fill="none"/>
+   <path fill="#ffffff" stroke="#0f0101" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m489,142c0,0 43,118 5,158c-38,40 115,19 95,-43c-20,-62 -100,-115 -100,-115z" id="svg_14"/>
+  </g>
+ </g>
+</svg>
